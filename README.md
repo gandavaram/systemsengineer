@@ -65,9 +65,9 @@ Now you can see metrics of pod kubectl top pods and kubectl top hpa
 Once all things as been up and running. Access the application outside use this cmd and copy the url and execute in browser
 Note: Please open the nodeport into security groups under inbound rules
 minikube service hpaclusterservice  --url
-  <img width="580" alt="Screenshot 2022-11-30 at 7 46 53 PM" src="https://user-images.githubusercontent.com/47560900/204819266-16c58944-bc2f-41e4-b883-c5a3b8736727.png">
+<img width="580" alt="Screenshot 2022-11-30 at 7 48 23 PM" src="https://user-images.githubusercontent.com/47560900/204819631-042e2454-1273-4f20-a5a0-1558b36b4769.png">
 
- 
+  
 ![Javahomepage](https://user-images.githubusercontent.com/47560900/204814593-60d9ab54-6e1b-4970-a189-71aea0046fe3.jpeg)
 
   Before that please open 2 tabs. In one tab execute watch kubectl top nodes, in another tab watch kubectl get hpa

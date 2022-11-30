@@ -68,6 +68,8 @@ Note: Please open the nodeport into security groups under inbound rules
   
   
 minikube service hpaclusterservice  --url
+  
+  
 <img width="580" alt="Screenshot 2022-11-30 at 7 48 23 PM" src="https://user-images.githubusercontent.com/47560900/204819631-042e2454-1273-4f20-a5a0-1558b36b4769.png">
 
   

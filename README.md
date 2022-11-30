@@ -73,6 +73,8 @@ minikube service hpaclusterservice  --url
 <img width="580" alt="Screenshot 2022-11-30 at 7 48 23 PM" src="https://user-images.githubusercontent.com/47560900/204819631-042e2454-1273-4f20-a5a0-1558b36b4769.png">
 
   
+  
+  
 ![Javahomepage](https://user-images.githubusercontent.com/47560900/204814593-60d9ab54-6e1b-4970-a189-71aea0046fe3.jpeg)
 
   Before that please open 2 tabs. In one tab execute watch kubectl top nodes, in another tab watch kubectl get hpa

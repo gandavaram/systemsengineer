@@ -33,6 +33,10 @@ cd systemsenginer
 mvn clean pacakge 
 docker build -t ashokcgdocker/javaapp:RC1 .
 
+before push please do signup to dockerhub and then docker login to dockerhub
+
+docker login -u <username> -p <password>
+
 docker push ashokcgdocker/javaapp:RC1
 
 
@@ -60,12 +64,10 @@ and check metrics server pod is running or not if running check the logs as well
  
 Now you can see metrics of pod kubectl top pods and kubectl top hpa 
 
- Once all things as been up and running. Genarete the load by using this cmd 
-  kubectl run -i --tty load-generator --rm --image=busybox:1.28 --restart=Never -- /bin/sh -c "while true; do wget -q -O- http://hpaclusterservice; done"
-
-  You can also Try generate some CPU load by entering one of the deployments pod
-  kubectl exec -it hpadeployment-79d4b75d49-82j6d sh and then exexute below
-  # while true; do echo 'IncreaseLoad'; done
+Once all things as been up and running. Access the application outside use this cmd and copy the url and execute in browser
+Note: Please open the nodeport into security groups under inbound rules
+minikube service hello-node --url
+![Javahomepage](https://user-images.githubusercontent.com/47560900/204814593-60d9ab54-6e1b-4970-a189-71aea0046fe3.jpeg)
 
   Before that please open 2 tabs. In one tab execute watch kubectl top nodes, in another tab watch kubectl get hpa
 

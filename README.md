@@ -1,9 +1,7 @@
-# systemsengineer
-
 
 ### Minikube setup ####
 
-prerequisites
+## prerequisites ##
 Craete a VM with any OS like i'm taking ubuntu
   2 CPUs or more
   2GB of free memory

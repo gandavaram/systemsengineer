@@ -80,6 +80,8 @@ minikube service hpaclusterservice  --url
   Before that please open 2 tabs. In one tab execute watch kubectl top nodes, in another tab watch kubectl get hpa
 
   And finally monitor the tabs you can see the cpu getting increated on watch pod section and you can also see new pods getting created 
+  
+  
   <img width="1440" alt="Screenshot 2022-11-30 at 2 47 31 PM" src="https://user-images.githubusercontent.com/47560900/204813350-898f6b0b-2782-471a-8aa8-a2937d729723.png">
 
   

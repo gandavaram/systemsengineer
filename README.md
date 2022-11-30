@@ -63,7 +63,10 @@ and check metrics server pod is running or not if running check the logs as well
 Now you can see metrics of pod kubectl top pods and kubectl top hpa 
 
 Once all things as been up and running. Access the application outside use this cmd and copy the url and execute in browser
+  
 Note: Please open the nodeport into security groups under inbound rules
+  
+  
 minikube service hpaclusterservice  --url
 <img width="580" alt="Screenshot 2022-11-30 at 7 48 23 PM" src="https://user-images.githubusercontent.com/47560900/204819631-042e2454-1273-4f20-a5a0-1558b36b4769.png">
 

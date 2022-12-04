@@ -42,7 +42,7 @@ in form of docker images and Push into docker hub then update the image into jav
 
 Then execute the manifest file to deploy an application into a pods 
 
-kubectl create -f javawebapp-hpa-deployment.yaml
+kubectl apply -f javawebapp-hpa-deployment.yaml
 
 One you have deployed hpa deployment file please check the pods and hpa is running
 
@@ -53,7 +53,7 @@ and then check you can able to see the pod metrics by using below command
 kubectl top pods
 
 if not, please install the matrics server on minikube cluster 
-kubectl create -f metrics-server.yaml
+kubectl apply -f metrics-server.yaml
 
 and check metrics server pod is running or not if running check the logs as well
 
